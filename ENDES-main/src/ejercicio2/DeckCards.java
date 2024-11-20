@@ -17,7 +17,7 @@ public class DeckCards {
 				deck.add(card);
 			}
 		}
-
+		//comentando para el ejercicio
 		for (int i = 0; i < deck.size(); i++) {
 			int j = (int) Math.floor(Math.random() * i);
 			Card tmp = deck.get(i);
